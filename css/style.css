@@ -1,0 +1,78 @@
+/*=============================================
+=            export fonts            =
+=============================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans+Mono:wght@300&display=swap');
+
+/*=====  End of export fonts  ======*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*=============================================
+=            navbar            =
+=============================================*/
+
+nav ul li {
+	list-style: none;
+}
+
+nav {
+	background-color: rgb(246, 122, 205);
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 0px 13px;
+	height: 7vh;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+
+/*=====  End of navbar  ======*/
+
+/*=============================================
+=            mainSection             =
+=============================================*/
+
+.mainContainer {
+	background-color: #b8f080;
+	height: 93vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gameContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 10vw);
+	grid-template-rows: repeat(3, 9vw);
+	justify-content: center;
+	align-content: center;
+	margin: 0px 3vh 0px 0px;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	font-size: 4vw;
+}
+
+.box:hover {
+	background-color: #ffbf00;
+	cursor: pointer;
+}
+
+.infoContainer > h3 {
+	font-size: 3vw;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.imgbox > img {
+	height: 15vh;
+	display: none;
+}
+
+/*=====  End of mainSection   ======*/
